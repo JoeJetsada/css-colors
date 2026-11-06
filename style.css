@@ -11,7 +11,7 @@
     align-items: center;
     font-family: "Times New Roman", Times, serif;
     /* ไล่สีจากมุมล่างซ้าย (ส้มชมพู) ไปมุมบนขวา (น้ำเงินม่วง) */
-    background: linear-gradient(to top right, #ff6b6b, #6366ff);
+    background: linear-gradient(to top right,hsl(0, 100%, 70%),hsl(240, 100%, 70%));
   }
   
   .card {
@@ -19,7 +19,7 @@
     max-width: 408px;
     padding: 20px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: hsla(0, 50%, 100%, 0.5);
     border-radius: 5px;
   }
   
